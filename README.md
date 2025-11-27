@@ -15,10 +15,10 @@ Exploramos, organizamos y documentamos aprendizajes prácticos sobre agentes de 
 PoC de un chatbot/agente en Python usando OpenAI Responses API con herramientas: crear, leer y editar archivos, memoria conversacional, prevención de llamadas duplicadas y re-consulta tras tool calling. Incluye guías de seguridad, debugging y estructura modular mínima.
 
 - Código y docs: `Agente de IA/Chatbot_PoC/`
-- Guía completa: [Chatbot_PoC/README.md](Agente_de_IA/Chatbot_PoC/README.md)
+- Guía completa: [Chatbot_PoC/README.md](Agentes_de_IA/Chatbot_PoC/README.md)
 
 ## Índice rápido
-- Agente de IA → [Chatbot_PoC](Agente_de_IA/Chatbot_PoC/)
+- Agente de IA → [Chatbot_PoC](Agentes_de_IA/Chatbot_PoC/)
 
 ## Buenas prácticas y seguridad
 
