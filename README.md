@@ -1,3 +1,5 @@
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/metahumo/Documento_IA)
+
 # Documento IA — Índice maestro
 
 Exploramos, organizamos y documentamos aprendizajes prácticos sobre agentes de IA, LLMs y desarrollo de PoCs con herramientas (function calling). El objetivo es construir una guía clara, reproducible y pedagógica para crear asistentes que razonan, recuerdan y ejecutan acciones seguras sobre el entorno.
