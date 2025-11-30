@@ -13,6 +13,7 @@ En este documento recopilamos los pasos iniciales para crear y configurar un age
 5. [Optimizaciones](#5-modificaciones-para-optimización)
 6. [Lectura y edición](#6-lectura-de-archivos-y-modificación)
 7. [Código completo](#7-archivos-completos)
+8. [Referencias](#8-referencias)
 
 ---
 
@@ -1545,7 +1546,7 @@ class Agent:
 
 ---
 
-## Referencias
+## 8. Referencias
 
 La mayor parte de esta documentación esta extraída del siguiente enlace: [Ringa Tech - Tu Primer Agente de IA en Python (Sin Frameworks)
 ](https://www.youtube.com/watch?v=MjK-j7YJ5YI&t=1827s)
