@@ -13,14 +13,21 @@ Exploramos, organizamos y documentamos aprendizajes prácticos sobre agentes de 
 ## Estructura principal (carpetas)
 
 ### Agente de IA / Chatbot_PoC
-
 PoC de un chatbot/agente en Python usando OpenAI Responses API con herramientas: crear, leer y editar archivos, memoria conversacional, prevención de llamadas duplicadas y re-consulta tras tool calling. Incluye guías de seguridad, debugging y estructura modular mínima.
-
 - Código y docs: `Agente de IA/Chatbot_PoC/`
-- Guía completa: [Chatbot_PoC/README.md](Agentes_de_IA/Chatbot_PoC/README.md)
+- Guía completa: [Chatbot_PoC/README.md](Agente_de_IA/Chatbot_PoC/README.md)
+
+### Machine Learning
+Material introductorio y aplicado sobre fundamentos y preparación de datos para modelos de ML, con énfasis en casos y paralelos en ciberseguridad.
+- Carpeta: `Machine Learning/Introducción al ML/`
+- Documentos incluidos:
+	- `Los Datos en ML.md`: importancia de la calidad, fuentes (internas, públicas, tiempo real, usuario), limpieza, features y división entrenamiento/prueba.
+	- `Tipos de ML.md`: aprendizaje supervisado, no supervisado y por refuerzo; ejemplos generales y de ciberseguridad; glosario (regresión, clasificación, clustering, agente, recompensa, política, features, overfitting, anomalía).
+	- `Técnicas Avanzadas de Preprocesamiento en ML.md`: feature engineering, reducción de dimensionalidad (PCA, t-SNE, autoencoders), normalización, manejo de desbalance (SMOTE, oversampling, pesos), codificación categórica y aplicaciones (tráfico, malware, anomalías, correlación multi‑fuente).
 
 ## Índice rápido
-- Agente de IA → [Chatbot_PoC](Agentes_de_IA/Chatbot_PoC/)
+- Agente de IA → [Chatbot_PoC](Agente_de_IA/Chatbot_PoC/)
+- Machine Learning → [Introducción al ML](Machine%20Learning/Introducción%20al%20ML/)
 
 ## Buenas prácticas y seguridad
 
@@ -43,4 +50,3 @@ Este repositorio se apoya en materiales públicos y de la comunidad de IA/AGI. G
 ## Advertencias legales y éticas
 
 El contenido tiene fines educativos. Úsalo de forma responsable y conforme a las leyes aplicables. No automatices acciones que vulneren términos de servicio, privacidad o propiedad intelectual. Si dudas, solicita asesoría o evita su ejecución.
-
