@@ -15,7 +15,7 @@ Exploramos, organizamos y documentamos aprendizajes prácticos sobre agentes de 
 ### Agente de IA / Chatbot_PoC
 PoC de un chatbot/agente en Python usando OpenAI Responses API con herramientas: crear, leer y editar archivos, memoria conversacional, prevención de llamadas duplicadas y re-consulta tras tool calling. Incluye guías de seguridad, debugging y estructura modular mínima.
 - Código y docs: `Agente de IA/Chatbot_PoC/`
-- Guía completa: [Chatbot_PoC/README.md](Agente_de_IA/Chatbot_PoC/README.md)
+- Guía completa: [Chatbot_PoC/README.md](./Agente_de_IA/Chatbot_PoC/README.md)
 
 ### Machine Learning
 Material introductorio y aplicado sobre fundamentos y preparación de datos para modelos de ML, con énfasis en casos y paralelos en ciberseguridad.
@@ -36,8 +36,8 @@ Material introductorio y aplicado sobre fundamentos y preparación de datos para
 		- `housing.csv`: dataset con características de viviendas (ubicación, población, habitaciones, etc.) y precios (`median_house_value`).
 
 ## Índice rápido
-- Agente de IA → [Chatbot_PoC](Agente_de_IA/Chatbot_PoC/)
-- Machine Learning → [Introducción al ML](Machine%20Learning/Introducción%20al%20ML/)
+- Agente de IA → [Chatbot_PoC](./Agente_de_IA/Chatbot_PoC/)
+- Machine Learning → [Introducción al ML](./Machine%20Learning/Introducción%20al%20ML/)
 
 ## Buenas prácticas y seguridad
 
