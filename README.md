@@ -36,8 +36,8 @@ Material introductorio y aplicado sobre fundamentos y preparación de datos para
 		- `housing.csv`: dataset con características de viviendas (ubicación, población, habitaciones, etc.) y precios (`median_house_value`).
 
 ## Índice rápido
-- Agente de IA → [Chatbot_PoC](./Agentes_de_IA/Chatbot_PoC/)
-- Machine Learning → [Introducción al ML](./Introducción%20al%20ML/)
+- Agente de IA → [Chatbot_PoC](./Agentes_de_IA/Chatbot_PoC)
+- Machine Learning → [Introducción al ML](./Introducción%20al%20ML)
 
 ## Buenas prácticas y seguridad
 
