@@ -27,12 +27,9 @@ Material introductorio y aplicado sobre fundamentos y preparación de datos para
 	- `Tipos de ML.md`: aprendizaje supervisado, no supervisado y por refuerzo; ejemplos generales y de ciberseguridad; glosario (regresión, clasificación, clustering, agente, recompensa, política, features, overfitting, anomalía).
 	- `Técnicas Avanzadas de Preprocesamiento en ML.md`: feature engineering, reducción de dimensionalidad (PCA, t-SNE, autoencoders), normalización, manejo de desbalance (SMOTE, oversampling, pesos), codificación categórica y aplicaciones (tráfico, malware, anomalías, correlación multi‑fuente).
 
-#### Mini Proyectos de ML (Ejercicios)
-- Carpeta: `Ejercicios/`
+#### Mini Proyectos de ML
+- Carpeta: `regresion_lineal_housing/`
 - Proyectos incluidos:
-	- **Regresión Lineal Simple (Celsius → Fahrenheit)**: `Ejercicios/Regresion_lineal/`
-		- `Primer_modelo.py`: primer modelo de ML end-to-end con visualización, carga de datos (`celsius.csv`), features/etiquetas, entrenamiento y predicción.
-		- Conceptos: scatter plots, reshape, `.fit()` y `.predict()`, score R².
 	- **Regresión Lineal Avanzada (Housing Dataset)**: `Ejercicios/Regresion_lineal_housing/`
 		- `regresion_lineal_housing.py`: flujo completo: exploración (`.info()`, `.describe()`, histogramas), limpieza (dropna), one-hot encoding, feature engineering (`bedroom_ratio`), correlaciones, train/test split, estandarización (StandardScaler), evaluación (R², MSE, RMSE).
 		- `regresion_lineal_housing.ipynb`: versión interactiva del análisis con visualizaciones geográficas y gráficas de correlación.
