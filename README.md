@@ -1,4 +1,4 @@
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/metahumo/Documento_IA)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/metahumo/Documento_IA) [![LinkedIn](https://img.shields.io/badge/LinkedIn-MiPerfil-blue?logo=linkedin)](https://www.linkedin.com/in/daniel-moises-castro-perez/)
 
 # Documento IA — Índice maestro
 
