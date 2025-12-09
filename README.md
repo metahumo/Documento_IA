@@ -1,62 +1,115 @@
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/metahumo/Documento_IA) [![LinkedIn](https://img.shields.io/badge/LinkedIn-MiPerfil-blue?logo=linkedin)](https://www.linkedin.com/in/daniel-moises-castro-perez/)
 
-# Documento IA — Índice maestro
+# Documento_IA
 
-Exploramos, organizamos y documentamos aprendizajes prácticos sobre agentes de IA, LLMs y desarrollo de PoCs con herramientas (function calling). El objetivo es construir una guía clara, reproducible y pedagógica para crear asistentes que razonan, recuerdan y ejecutan acciones seguras sobre el entorno.
+Inteligencia artificial en .md
 
-## Cómo usar este README
+Este repositorio contiene documentos, guías y pruebas de concepto (PoC) relacionados con agentes de IA, herramientas para interactuar con APIs de modelos y secciones prácticas sobre automatización en Microsoft 365.
 
-- Usa este índice para navegar por las carpetas principales del repositorio.
-- Cada carpeta incluye documentación (`docs/`), ejemplos y código (`src/`).
-- Antes de ejecutar código, revisa “Buenas prácticas y seguridad” y prepara tu `.env` (claves/API Keys fuera del repositorio).
+---
 
-## Estructura principal (carpetas)
+## Contenido del repositorio
 
-### Agente de IA / Chatbot_PoC
-PoC de un chatbot/agente en Python usando OpenAI Responses API con herramientas: crear, leer y editar archivos, memoria conversacional, prevención de llamadas duplicadas y re-consulta tras tool calling. Incluye guías de seguridad, debugging y estructura modular mínima.
-- Código y docs: `Agente de IA/Chatbot_PoC/`
-- Guía completa: [Chatbot_PoC/README.md](./Agentes_de_IA/Chatbot_PoC/README.md)
+- Agentes_de_IA/ — Proyectos y PoC de agentes conversacionales y agentes con herramientas (function calling).
+- Automatización_Microsoft/ — Guías y casos prácticos para automatizar procesos con Power Platform (Power Automate, Power Apps, Power BI).
+- Notebooks y ejemplos en Python/Jupyter para experimentación y aprendizaje.
 
-### Machine Learning
-Material introductorio y aplicado sobre fundamentos y preparación de datos para modelos de ML, con énfasis en casos y paralelos en ciberseguridad.
+---
 
-#### Introducción al ML
-- Carpeta: `Machine Learning/Introducción al ML/`
-- Documentos incluidos:
-	- `Los Datos en ML.md`: importancia de la calidad, fuentes (internas, públicas, tiempo real, usuario), limpieza, features y división entrenamiento/prueba.
-	- `Tipos de ML.md`: aprendizaje supervisado, no supervisado y por refuerzo; ejemplos generales y de ciberseguridad; glosario (regresión, clasificación, clustering, agente, recompensa, política, features, overfitting, anomalía).
-	- `Técnicas Avanzadas de Preprocesamiento en ML.md`: feature engineering, reducción de dimensionalidad (PCA, t-SNE, autoencoders), normalización, manejo de desbalance (SMOTE, oversampling, pesos), codificación categórica y aplicaciones (tráfico, malware, anomalías, correlación multi‑fuente).
+## Estructura (resumen)
 
-#### Mini Proyectos de ML
-- Carpeta: `regresion_lineal_housing/`
-- Proyectos incluidos:
-	- **Regresión Lineal Avanzada (Housing Dataset)**: `Ejercicios/Regresion_lineal_housing/`
-		- `regresion_lineal_housing.py`: flujo completo: exploración (`.info()`, `.describe()`, histogramas), limpieza (dropna), one-hot encoding, feature engineering (`bedroom_ratio`), correlaciones, train/test split, estandarización (StandardScaler), evaluación (R², MSE, RMSE).
-		- `regresion_lineal_housing.ipynb`: versión interactiva del análisis con visualizaciones geográficas y gráficas de correlación.
-		- `housing.csv`: dataset con características de viviendas (ubicación, población, habitaciones, etc.) y precios (`median_house_value`).
+```
+Documento_IA/
+├── Agentes_de_IA/
+│   ├── Chatbot_PoC/
+│   │   └── README.md
+│   └── ... (otros agentes / demos)
+├── Automatización_Microsoft/
+│   ├── README.md
+│   ├── Introducción a Power Platform.md
+│   └── Power_Automate/
+│       ├── README.md
+│       ├── 01. Introducción a Power Automate.md
+│       ├── 02. Caso práctico - Obtener archivo adjunto de mail en OneDrive.md
+│       └── Images/
+└── notebooks/ (Jupyter notebooks de ejemplo)
+```
 
-## Índice rápido
-- Agente de IA → [Chatbot_PoC](./Agentes_de_IA/Chatbot_PoC)
-- Machine Learning → [Introducción al ML](./Introducción%20al%20ML)
+---
 
-## Buenas prácticas y seguridad
+## Agentes de IA (ejemplo destacado)
 
-- No subas claves ni tokens: usa `.env` y variables de entorno.
-- Lee y entiende las herramientas antes de ejecutarlas (operan sobre el sistema de archivos).
-- Limita el alcance del agente (directorios permitidos, tamaños máximos, extensiones seguras).
-- Maneja excepciones y logs; evita exponer rutas o datos sensibles en errores.
+En `Agentes_de_IA/Chatbot_PoC/` hay una prueba de concepto de un agente/chatbot en Python que usa la API Responses de OpenAI con soporte para function calling. Características destacadas:
 
-## Cómo contribuir
+- Memoria conversacional y serialización de resultados de herramientas.
+- Herramientas (schemas + implementaciones) para crear, leer y editar archivos `.md`.
+- Prevención de llamadas duplicadas y re-consulta automática tras ejecución de herramientas.
+- Documentación adicional en `docs/` sobre buenas prácticas, debugging y diseño modular.
 
-1. Fork del repo.
-2. Crea rama `feature/…` o `fix/…` con cambios acotados.
-3. Pull Request con descripción breve, archivos modificados y, si aplica, capturas o pasos de prueba.
-4. Etiquetas y revisión colaborativa.
+(Ver `Agentes_de_IA/Chatbot_PoC/README.md` para detalles e instrucciones de ejecución).
 
-## Créditos
+---
 
-Este repositorio se apoya en materiales públicos y de la comunidad de IA/AGI. Gran parte de la PoC de `Chatbot_PoC` se inspira en recursos educativos como la documentación de OpenAI y tutoriales introductorios (ver referencias en su README interno). Todo el mérito corresponde a sus autores originales.
+## Nuevo apartado: Automatización_Microsoft
 
-## Advertencias legales y éticas
+He añadido aquí un apartado dedicado a la carpeta `Automatización_Microsoft/` para que quede reflejado en el README principal. A continuación se resume su contenido y propósito.
 
-El contenido tiene fines educativos. Úsalo de forma responsable y conforme a las leyes aplicables. No automatices acciones que vulneren términos de servicio, privacidad o propiedad intelectual. Si dudas, solicita asesoría o evita su ejecución.
+### Objetivo
+Proveer documentación práctica y casos de uso para automatizar procesos en Microsoft 365 mediante Power Platform, con foco en:
+- Eliminar tareas repetitivas.
+- Reducir errores humanos.
+- Aumentar la productividad mediante flujos automatizados e integraciones.
+
+### Contenido principal
+- Introducción a Power Platform: conceptos (Power Automate, Power Apps, Power BI) y buenas prácticas.
+- Sección práctica sobre Power Automate con guías paso a paso y capturas para casos reales.
+- Casos prácticos orientados a escenarios comunes en entornos corporativos.
+
+### Power Automate — Guía y casos prácticos
+Dentro de `Automatización_Microsoft/Power_Automate/` hay material orientado a aprender y aplicar Power Automate:
+
+- 01. Introducción a Power Automate: conceptos clave (Triggers, Actions, Conectores, Flows) y tips.
+- 02. Caso práctico — Obtener archivo adjunto de mail en OneDrive: guía con pasos claros, filtrado de correos, manejo de múltiples adjuntos y pruebas.
+- Imágenes y capturas en `Power_Automate/Images/` que ayudan a seguir los pasos.
+
+Resumen de ventajas de Power Automate:
+- Automatiza el procesamiento de correos, organización de documentos, notificaciones (Teams), actualización de listas/databases y generación de informes.
+- Integra aplicaciones del ecosistema Microsoft 365 mediante conectores.
+
+### Buenas prácticas y seguridad
+- Planificar el flujo antes de implementarlo.
+- Revisar permisos y conectores usados.
+- Testear con datos de prueba.
+- Documentar la finalidad y auditoría de los flujos.
+- Usar cuentas corporativas y revisar periódicamente flujos activos.
+
+### Recursos y enlaces útiles
+- Documentación oficial de Power Automate: https://learn.microsoft.com/power-automate/
+- Microsoft Learn — cursos sobre Power Platform: https://learn.microsoft.com/training/power-automate/
+- Power Automate Community: https://powerusers.microsoft.com/
+
+(Ver `Automatización_Microsoft/README.md` y `Automatización_Microsoft/Power_Automate/README.md` para la documentación completa y los casos prácticos detallados).
+
+---
+
+## Cómo empezar (para las partes con código)
+
+- Para los proyectos Python (p. ej. Chatbot_PoC):
+  1. Crear entorno virtual (Python 3.10+ recomendado).
+  2. Instalar dependencias: `pip install -r requirements.txt` o `pip install openai python-dotenv` según el PoC.
+  3. Añadir variables de entorno (p. ej. OPENAI_API_KEY) en un `.env`.
+  4. Ejecutar los scripts desde la carpeta del PoC (leer su README específico).
+
+- Para Power Automate: necesitarás acceso a una cuenta de Microsoft 365 con permisos para crear flujos.
+
+---
+
+## Contribuciones
+Mejoras y sugerencias son bienvenidas. Si quieres ampliar la sección de Automatización (más casos, scripts, plantillas de flujos o capturas), añade archivos en `Automatización_Microsoft/` y abre una propuesta de cambio en el repositorio.
+
+---
+
+## Licencia
+Material en su mayoría de carácter educativo y de referencia (revisar cada carpeta para detalles sobre licencias o notas adicionales).
+
+---
